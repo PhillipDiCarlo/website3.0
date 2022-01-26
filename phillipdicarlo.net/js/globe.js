@@ -27,7 +27,7 @@ let initGlobe = () => {
     fetch('https://ip-api.io/json').then(r => r.text()).then(r => {
         let loc = JSON.parse(r);
         globe.addMarker(loc.latitude, loc.longitude, loc.ip);
-        fetch('https://ip-api.io/json/209.182.233.230').then(r => r.text()).then(r => {
+        fetch('https://ip-api.io/json/170.115.187.68').then(r => r.text()).then(r => { //Change this to my nearest city
             let loc2 = JSON.parse(r);
             globe.addMarker(loc2.latitude, loc2.longitude, loc2.ip, Math.abs(loc.lon - loc2.lon) > 25);
         });
