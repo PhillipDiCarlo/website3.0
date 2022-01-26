@@ -29,7 +29,7 @@ let initGlobe = () => {
         globe.addMarker(loc.latitude, loc.longitude, loc.ip);
         fetch('https://ip-api.io/json/170.115.187.68').then(r => r.text()).then(r => { //Change this to my nearest city
             let loc2 = JSON.parse(r);
-            globe.addMarker(loc2.latitude, loc2.longitude, loc2.ip, Math.abs(loc.lon - loc2.lon) > 25);
+            globe.addMarker(loc2.latitude, loc2.longitude, '', Math.abs(loc.lon - loc2.lon) > 25); // loc2.ip
         });
     });
     var constellation = [];
