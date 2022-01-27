@@ -34,4 +34,9 @@ const ProjectData = {
 		github: "",
 		description: "Written as an effort to solve the issue with cross platform achievement syncing. Hosted on AWS, and using OAuth as the main login system I utlized available API's with Steam, Origin, Xbox, and Playstation to view client data such as games played and achievements and created a single database where users could view all their achievements from every platform and compare them with friends and global users."
 	},
+	"redditScraper": {
+		title: "Reddit Scraper Bot",
+		github: "",
+		description: "Famous Twitch streamer was becoming irate of a Reddit community's subreddit they frequently visited and showed on stream. I created a new subreddit for them, with identical posts without the user's ability to make comments. <br /> In order to make the posts identical, I automated a bot that scanned for any new posts with a positive upvote and post the identitcal content over an interval to the new subreddit. <br /> Programmed mostly in Javascript."
+	},
 };
