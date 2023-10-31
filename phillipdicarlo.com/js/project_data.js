@@ -52,4 +52,13 @@ const ProjectData = {
     description:
       "Created a program to keep track of a streamers value determined by their viewers. Porgram lurks in a streamer's chat and listens for specific phrases. Program is written for easy scaling with new streamers easily able to be added without modifying the code in any way. Website displays a selection of tracked streamers and a graph of their current and past values. <br /> Written in Node.JS for backend, HTML and CSS for frontend, and utilizes MongoDB for the database.",
   },
+  vrChatScript: {
+    title: "Custom VRChat Scripts",
+    github:
+      "https://github.com/PhillipDiCarlo?tab=repositories#:~:text=ClubLAAssets,VRChat%2DInvite%2DBot",
+    description:
+      "Using JS and C#, I've developed a VRChat Invite Bot, a Discord bot syncing guild roles with GitHub, and a 'Whitelisted Area Access' feature for controlled in-game areas. These tools enhance the user experience and streamline community interactions. \n\n" +
+      "The VRChat Invite Bot provides players a swift and seamless entry to desired worlds. My Discord bot bridges Discord with GitHub, simplifying user role management. The 'Whitelisted Area Access' script offers dynamic environments with user-centric access controls.\n\n" +
+      "My scripts can adapt to various projects beyond their initial scope. The VRChat Invite Bot's principles could automate tasks on other platforms with APIs. The Discord bot's syncing and the 'Whitelisted Area Access' can be tailored for diverse environments, from gaming to web portals.",
+  },
 };
